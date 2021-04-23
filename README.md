@@ -1,4 +1,6 @@
-# lottery
+# simple-lottery
+
+一个附带简易动画的纯前端抽奖程序
 
 ## Project setup
 ```
