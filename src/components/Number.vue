@@ -53,7 +53,7 @@ export default {
       let arr = [...Array(1200).keys()].filter(i => this.excepts.indexOf(i) === -1);
       const result = arr.sort(function () {
         return Math.random() - 0.5;
-      }).slice(300)
+      }).slice(0, 300)
       this.$emit('change', result[result.length - 1])
       const {items} = this
       this.items = [items[0], ...result]
